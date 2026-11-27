@@ -1,32 +1,34 @@
 # Security Policy
 
-This is the **default security policy** for [@aaronjmars](https://github.com/aaronjmars)
+This is the **default security policy** for [Aeon](https://github.com/aeonfun)
 projects. It applies to any repository that doesn't ship its own `SECURITY.md`.
 Repos with a heavier threat surface (wallets and on-chain funds, browser
 automation, autonomous agents with your secrets) override this with a tailored
-policy — read that one if it exists.
+policy - read that one if it exists.
 
 ## Reporting a vulnerability
 
 **Please don't open a public issue for a security problem.** Use GitHub's
-**Private Vulnerability Reporting (PVR)** on the affected repository:
+**Private Vulnerability Reporting (PVR)** instead, on the affected repository:
 
 ➡️ Go to the repo → **Security** tab → **Report a vulnerability**
-(`https://github.com/aaronjmars/<repo>/security/advisories/new`).
+(`https://github.com/aeonfun/<repo>/security/advisories/new`).
 
-This opens a private advisory that only the maintainers can see — never a public
+This opens a private advisory that only the maintainers can see - never a public
 issue, so a fix can ship before the details are out.
+
+If you can't use the form, email **aaron@aeon.fun** instead.
 
 Please include what you can:
 
 - The repository and the file/route/component affected (a path is ideal).
 - A minimal reproduction or proof of concept.
-- The impact you can demonstrate — secret or key disclosure, loss or misdirection
+- The impact you can demonstrate - secret or key disclosure, loss or misdirection
   of funds, remote code execution, prompt injection that crosses a trust boundary,
   SSRF, or unauthorized access.
 - The commit/version and environment you tested against.
 
-**Response targets** — best effort; these are small projects:
+**Response targets** - best effort; these are small projects:
 
 | Stage | Target |
 |-------|--------|
@@ -70,12 +72,12 @@ pipeline.
 **Out of scope:** your own misconfiguration (committed secrets, over-broad
 permissions, exposing a service with no auth); vulnerabilities in third-party
 dependencies or platforms (report those to the vendor); and output-quality issues
-(a wrong answer is a bug — open a regular issue, not a security report).
+(a wrong answer is a bug - open a regular issue, not a security report).
 
 ---
 
-> **Maintainers:** the private-reporting flow only works once PVR is enabled —
+> **Maintainers:** the private-reporting flow only works once PVR is enabled -
 > **Settings → Code security and analysis → Private vulnerability reporting →
-> Enable** — on each repository.
+> Enable** - on each repository.
 
-Thanks for helping keep these projects and the people who run them safe.
+Thanks for helping keep Aeon projects and the people who run them safe.
